@@ -44,12 +44,11 @@
       "runtimeArgs": [
         "--inspect"
       ],
-      "program": "${workspaceFolder}/node_modules/.bin/nuxt",
+      "program": "${workspaceFolder}/node_modules/.bin/nuxi",
       "outputCapture": "std",
       "args": [
         "build",
-        "--config-file",
-        "example/nuxt.config.js"
+        "example"
       ]
     },
     {
@@ -60,12 +59,11 @@
       "runtimeArgs": [
         "--inspect"
       ],
-      "program": "${workspaceFolder}/node_modules/.bin/nuxt",
+      "program": "${workspaceFolder}/node_modules/.bin/nuxi",
       "outputCapture": "std",
       "args": [
         "generate",
-        "--config-file",
-        "example/nuxt.config.js"
+        "example"
       ]
     },
     {
@@ -76,11 +74,10 @@
       "runtimeArgs": [
         "--inspect"
       ],
-      "program": "${workspaceFolder}/node_modules/.bin/nuxt",
+      "program": "${workspaceFolder}/node_modules/.bin/nuxi",
       "outputCapture": "std",
       "args": [
-        "--config-file",
-        "example/nuxt.config.js"
+        "example"
       ]
     }
   ]
