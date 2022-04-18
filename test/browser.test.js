@@ -1,7 +1,7 @@
 
 import { join, resolve as pathResolve } from 'path';
 import { joinURL } from 'ufo';
-import { Nuxt, Builder } from 'nuxt';
+import { Nuxt, Builder } from 'nuxt-edge';
 import { chromium, firefox } from 'playwright';
 import { defu } from 'defu';
 import { afterAll, beforeAll, describe, test } from 'vitest';
